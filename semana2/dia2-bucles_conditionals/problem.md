@@ -11,7 +11,7 @@ Este proyecto en JavaScript permite ingresar una edad por teclado y clasificarla
 1. Solicitar al usuario que ingrese una edad (por `prompt`).
 2. Validar que sea un número mayor o igual a 0.
 3. Usar estructuras condicionales para determinar:
-   - 0 a 12: Niño
+   - 0 a 12: Niño 
    - 13 a 17: Adolescente
    - 18 a 64: Adulto
    - 65 en adelante: Adulto mayor
