@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convertidor de Divisas</title>
+  <script src="./convertidor.js" defer></script>
+</head>
+<body>
+  <h1>Convertidor de divisas</h1>
+  <p>Desde dólares a otras monedas.</p>
+
+  <form method="post" id="form">
+    <legend>Entrada</legend>
+    <label for="entrada">Cantidad en USD:</label>
+    <input type="text" id="entrada" name="entrada" placeholder="Ej: 5.25">
+    <button type="submit">Convertir</button>
+  </form>
+
+  <div class="div-salida">
+    <h2 id="salida"></h2>
+    <p id="euros"></p>
+    <p id="yenes"></p>
+    <p id="rupias"></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+:root {
+    --main-bg-color: #2e2b26;
+    --main-text-color: #e4d8c1;
+    --second-bg-color: #bcb084;
+    --second-text-color: #403c31;
+    --main-font-size: 16px;
+    --main-padding: 20px;
+    --border-radius: 10px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    margin: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 0 10px; 
+    margin: 20px 5rem;
+}
+
+header * {   
+    margin: 0;
+    padding: 0;
+}
+
+.cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 0.7fr));
+  }
+
+
+.card {
+    background-color: var(--second-bg-color);
+    color: var(--second-text-color);
+    border-radius: var(--border-radius);
+    padding: var(--main-padding);
+    margin: 25px 50px;
+}
+
+.cat-img {
+    margin: auto;
+    display: block;
+    width: 75%;
+    height: auto;
+    border-radius: var(--border-radius);
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--main-bg-color);
+}
+
+.cat-description {
+    margin: 10px 3rem;
+    padding: 0;
+}
+
+.cat-description p, .cat-description h3 {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 0 10px; 
+    margin: 20px 5rem;
+    font-size: 0.6rem;
+    font-style: oblique;
+}
