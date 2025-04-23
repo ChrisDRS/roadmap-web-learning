@@ -1,0 +1,57 @@
+:root {
+    --main-bg-color: rgb(0,25,50);
+    --second-bg-color: #fff;
+    --main-text-color: #fff;
+    --second-text-color: rgb(0,25,50);
+}
+
+body {
+    padding: 10px;
+    margin: auto;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+form {
+    background-color: var(--second-bg-color);
+    color: var(--second-text-color);
+    padding: 1.0rem;
+    margin: 2rem 2.50rem;
+    display: grid;
+    /* justify-content: center; */
+}
+
+label {
+    display: flex;
+    padding: 0;
+    margin: 1.0rem;
+}
+
+.primary-data {
+    display: flex;
+    margin: 2.0rem;
+}
+
+.secondary-data {
+    display: flex;
+    margin: 2.0rem;
+}
+
+button {
+    padding: 1.0rem 2.5rem;
+    display: block;
+    justify-items: center;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    text-decoration: solid;
+    border-radius: 1.0rem;
+    transition: 250ms;
+    border-color: var(--main-bg-color);
+}
+
+button:hover {
+    background-color: var(--second-bg-color);
+    color: var(--second-text-color);
+    transition: 250ms;
+}

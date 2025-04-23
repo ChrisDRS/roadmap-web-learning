@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Formulario para usuario</h1>
+    <form method="post" id="form">
+        <fieldset>
+            <legend>Datos de usuario</legend>
+            <div class="primary-data">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="age">Edad:</label>
+                <input type="text" name="age" id="age" required>
+            </div>
+            <div class="secondary-data">
+                <label for="subscribe">Está suscrito:</label>
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <label for="stonks">Ingresos:</label>
+                <input type="text" name="stonks" id="stonks">
+                <label for="terms">Acepta terminos y condiciones:</label>
+                <input type="number" name="terms" id="terms">
+            </div>
+            <button type="submit" id="sendData" >Enviar</button>
+        </fieldset>
+    </form>
+
+    <script src="./userData.js"></script>
+</body>
+</html>
