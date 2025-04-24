@@ -31,9 +31,9 @@
 - [x] Built-in Objects
 
 ## Type Casting
-- [ ] Type Conversion vs Coercion
-- [ ] Implicit Type Casting
-- [ ] Explicit Type **Casting**
+- [x] Type Conversion vs Coercion
+- [x] Implicit Type Casting
+- [x] Explicit Type **Casting**
 
 ## Equality Comparisons
 - [ ] Value Comparison Operators
@@ -88,7 +88,8 @@
 - [ ] Prototypal Inheritance
 
 ## Data Structures
-- [ ] Structured Data
+- [x] Structured Data
+  - [x] JSON
 - [ ] Keyed Collections
   - [ ] Map
   - [ ] Weak Map

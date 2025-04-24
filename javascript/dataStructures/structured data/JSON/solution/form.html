@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for JSON</title>
+</head>
+<body>
+    <h1>Formulario para JSON</h1>
+    <div class="form-div">
+        <form method="post" id="form">
+            <fieldset>
+                <legend>Datos para formulario</legend>
+                <div class="enter-data-div">
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="age">Edad:</label>
+                    <input type="number" name="age" id="age" min="12" max="80">
+                    <label for="email">Correo electronico:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="hobbies">Pasatiempos:</label>
+                    <input type="text" name="hobbies" id="hobbies">
+                </div>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <script src="./formData.js"></script>
+
+    <div>
+        <pre id="users">
+
+        </pre>
+    </div>
+</body>
+</html>
