@@ -90,11 +90,11 @@
 ## Data Structures
 - [x] Structured Data
   - [x] JSON
-- [ ] Keyed Collections
-  - [ ] Map
-  - [ ] Weak Map
-  - [ ] Set
-  - [ ] Weak Set
+- [x] Keyed Collections
+  - [x] Map
+  - [x] Weak Map
+  - [x] Set
+  - [x] Weak Set
 - [ ] Indexed Collections
   - [ ] Arrays
   - [ ] Typed Arrays
