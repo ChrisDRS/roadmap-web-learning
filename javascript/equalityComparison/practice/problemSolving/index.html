@@ -1,0 +1,26 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form method="post" id="form">
+            <fieldset>
+                <legend>Form</legend>
+                <p>En este form deberas introducir dos valores, para ser comparados en distintos algoritmos de igualdad en JS.</p>
+                <label for="value1">Value 1</label>
+                <input type="text" id="value1" name="value 1" required>
+                <label for="value2">Value 2</label>
+                <input type="text" id="value2" name="value 2" required>
+                <div>
+                    <label for="type">Type comparison:</label>
+                    Loose<input type="radio" id="looseEquality" name="type">
+                    Strict<input type="radio" id="strictEquality" name="type">
+                    Same<input type="radio" id="sameValue" name="type">
+
+                </div>
+                <button type="submit">Send</button>
+            </fieldset>
+        </form>
+        <script src="./scripts.js"></script>
+        <h1 id="output"></h1>
+    </body>
+</html>
