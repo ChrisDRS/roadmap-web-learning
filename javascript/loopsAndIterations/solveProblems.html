@@ -1,0 +1,52 @@
+<script>
+    // 1. Ejercicio for loop
+for(i=10;i>0;i--){
+     console.log(i)
+}
+
+// 2. Ejercicio while
+let num = 0;
+let sum = 0;
+while(num<100){
+    num++;
+    sum = num+sum;
+}
+console.log(`La suma total es: ${sum}`);
+
+// 3. Ejercicio do while
+do{
+    answer = prompt("Responde 'ok' para continuar: ", 'ok');
+} while(answer.toLowerCase()!=='ok');
+console.log('Gracias')
+
+// 4. Ejercicio for of
+const nombres = ["Ana", "Luis", "Carlos", "Maria"];
+for(let nombre of nombres){
+     console.log(nombre.toUpperCase());
+}
+
+// 5. Ejercicio for in
+const persona = {
+    nombre: "Cristian",
+    edad: 22,
+    ciudad: "Panamá"
+  };
+
+for(let key in persona){
+   console.log(`${key}: ${persona[key]}`);
+}
+
+//   6. Ejercicio break
+let conteo = 0;
+while(conteo<=10){
+    conteo++
+    if(conteo==6) break;
+    console.log(conteo);
+}
+
+// 7. Ejercicio continue
+for(x=1;x<=5;x++){
+    if(x==3) continue;
+    console.log(x);
+}
+</script>
